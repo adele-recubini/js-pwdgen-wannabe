@@ -13,9 +13,21 @@
 
 
 // carta forbici sasso
+var ludopatia = prompt('se vinco mi darai 6 milioni di euro, ok?');
+var outputBox = document.getElementById('output');
+
+if(ludopatia ==='ok'){
+  outputBox.append('iniziamo!')
+}
+
+if(ludopatia !== 'ok') {
+  outputBox.append('hai fatto bene, avresti perso.')
+}
+
+
+
 
 var domanda =prompt('carta,mani,forbici?')
-var outputBox = document.getElementById('output');
 
 if( domanda==='forbici'){
   outputBox.append('sasso' + '\nhai perso!')
