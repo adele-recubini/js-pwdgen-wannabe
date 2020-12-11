@@ -20,3 +20,11 @@ var outputBox = document.getElementById('output');
 if( domanda==='forbici'){
   outputBox.append('sasso' + '\nhai perso!')
 }
+
+if( domanda==='carta'){
+  outputBox.append('sasso' + '\nhai perso!')
+}
+
+if( domanda==='sasso'){
+  outputBox.append('carta!' + '\nhai perso!')
+}
